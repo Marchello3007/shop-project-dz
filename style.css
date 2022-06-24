@@ -1,0 +1,145 @@
+* {
+box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/patt.png");
+}
+
+
+
+header {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: -15px;
+    padding-right: -15px;
+    margin: 0 auto;
+}
+
+
+[class*=col-] {
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.menu li {
+    float: left;
+}
+
+.col2 {
+    
+    float: left;
+    list-style: none;
+    width: 25%;
+}
+
+.menu a {
+    display: block;
+    color: #2c71b8;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    font-size: 21px;
+    line-height: 50px;
+    border-left: 1px solid #2c71b8;
+}
+
+.menu li:last-child {
+    border-right: 1px solid #2c71b8; 
+}
+
+.menu li {
+    width: 25%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+.col-md-6 {
+    width: 50%;
+}
+
+.logo {
+    margin-top: 7px;
+}
+
+.border {
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid #2c71b8;
+    float: left;
+}
+
+.noborder {
+    float: right;
+    margin-top: 5px;
+}
+
+.noborder a{
+    display: block;
+    
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    list-style: 40px;
+}
+
+.noborder img {
+margin: 10px;
+}
+
+.col-md-3::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.border input {
+    height: 36px;
+    width: 158px;
+    margin: 1px;
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+}
+
+.btn-search {
+    height: 30px;
+    width: 30px;
+    background-color: #2c71b8;
+    border: none;
+    margin-top: 4px;
+    margin-right: 4px;
+    float: right;
+
+}
+
+input::placeholder {
+    color: #2c71b8;
+    font-size: 21px;
+}
+input:focus-visible {
+    height: 32px;
+    width: 155px;
+    margin: 3px;
+    border: none
+}
+/* input:focus-visible
+border: none
+ не працює(( */
