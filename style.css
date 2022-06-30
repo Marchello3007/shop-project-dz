@@ -52,6 +52,10 @@ header {
     height: 50px;
     font-size: 21px;
     line-height: 50px;
+    
+}
+
+.menu > li, .x2 {
     border-left: 1px solid #2c71b8;
 }
 
