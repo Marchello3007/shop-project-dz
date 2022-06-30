@@ -1,0 +1,14 @@
+<svg width="384" height="512" xmlns="http://www.w3.org/2000/svg">
+ <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="386" height="514" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path d="m192,384c-8.188,0 -16.38,-3.125 -22.62,-9.375l-160,-160c-12.5,-12.5 -12.5,-32.75 0,-45.25s32.75,-12.5 45.25,0l137.37,137.425l137.4,-137.4c12.5,-12.5 32.75,-12.5 45.25,0s12.5,32.75 0,45.25l-160,160c-6.25,6.25 -14.45,9.35 -22.65,9.35z" id="svg_1" fill="#2c71b8"/>
+  <path fill="null" stroke="null" stroke-width="null" stroke-opacity="null" fill-opacity="null" opacity="0.5" d="m55.5,221.45313" id="svg_3"/>
+  <path fill="none" stroke="null" stroke-width="null" stroke-opacity="null" id="svg_4" d="m45.5,209.45313c0,-1 1.29501,-1.84879 11,2c18.70723,7.41885 29.04024,13.95021 34,18c6.04969,4.93975 12.74023,11.24005 22,21c7.78693,8.20755 17,14 25,20c4,3 7.72961,6.22885 12,11c4.71585,5.26886 9.79488,9.22021 13,12c3.77727,3.276 6.48625,4.82376 7,7c0.22975,0.97323 0.21201,1.22473 2,6c2.82707,7.55035 6.40894,12.77636 9,18c2.39298,4.82427 5.91753,8.05664 8,11c2.88786,4.08169 6,7 9,9l3,1"/>
+ </g>
+</svg>
