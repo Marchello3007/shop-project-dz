@@ -172,6 +172,10 @@ border: none
 
  /* ------submenu------ */
 
+.submenu {
+    position: absolute;
+}
+
 .submenu a {
     display: block;
     height: 40px;
@@ -263,13 +267,6 @@ border: none
     color: #ffffff;
 }
 
-.filter-body {
-    height: 843px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    text-align: center;
-}
-
 .breadcrumbs {
     height: 66px;
     color: #ffffff;
@@ -284,20 +281,6 @@ border: none
     font-weight: bold;
     padding-bottom: 1px;    
 }
-
-
-
-.sort a {
-    display: block;
-    background-color: cornflowerblue;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-}
-
-
-
-
 
 .product {
     height: 652px;
@@ -407,190 +390,173 @@ border: none
 
 
 
+/* *************sort*********** */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .left-menu {
+.sort span {
     display: block;
-    height: 845px;
-    width: 270px;
-    background-color: aquamarine;
-}
-
-.col-md-9 {
-    background-color: blue;
-    width: 75%;
-    height: 2340px;
-    padding: 0;
-}
-
-.nav {
-    color: #96b8dc;
-    font-size: 14px;
-    height: 65px;
-    padding-left: 15px;
-    line-height: 65px;
-    
-    
-}
-
-.cat {
-    position: relative;
-    background-color: coral;
-    height: 100px;
-}
-.category {
-    background-color: chocolate;
+    background-color: #2c71b8;
     color: #ffffff;
+    padding-left: 20px;
+    padding-right: 13px;
+    line-height: 40px;
+    font-size: 21px;
+    width: 259px;
+    height: 40px;
+    border: 1px solid #ffffff;
+}
+
+.sort a {
+    display: block;
+    background-color: #2c71b8;
+    color: #ffffff;
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size: 21px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-top: none;
+}
+
+.angle-white2{
+    position: relative;
+    left: 150px;
+}
+
+.sort ul {
+    display: none;
+}
+
+.sort:hover ul {
+    display: block;
+}
+
+.sort a:hover {
+    background-color: #ffffff;
+    color: #2c71b8;
+}
+
+.sort ul {
     position: absolute;
-    height: 100%;
-    font-size: 48px;
-    font-weight: bold;
+    z-index: 5;
+    width: 259px;
 }
 
 .sort {
-    background-color: cornflowerblue;
-    position: absolute;
-    height: 40px;
-    width: 270px;
-    left: 600px;
+    left: 10px;
+}
 
-    margin: 0 15px;
+
+
+
+
+
+
+/* *************filter************ */
+
+
+.filter-body {
+    height: 843px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding-top: 1px;
+    padding-left: 28px;
+}
+
+input[type="checkbox"] {
+display: none;
+}
+
+label::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #ffffff;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-color: #ffffff;
+}
+
+.filter-type {
+    margin-top: 31px;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.filter-features {
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 64px;
+}
+
+.show-more {
+    margin-top: 27px;
     
 }
-
-.device {
-    width: 270px;
-    height: 650px;
-    margin: 15px;
-    background-color: deeppink;
-    float: left;
+.show-more a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
 }
 
-.devices::after {
-    content: "";
-    display: block;
+.btn-submit {
+    width: 210px;
+    height: 50px;
+    background-color: #2c71b8;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+.load-more {
+    padding-top: 10px;
+    padding-bottom: 90px;
     clear: both;
+    text-align: center;
+}
+
+.load-more a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 36px;
 }
 
 
 
 
-.copy-right {
-    height: 100px;
+
+
+
+/* ************fooref*************** */
+
+
+.footer {
     background-color: rgba(255, 255, 255, 0.75);
+    color: #2c71b8;
+    height: 100px;
+    clear: both;
     text-align: center;
     line-height: 100px;
-}
-
-.sort{
-    display: block;
-    height: 40px;
-    width: 270px;
-    line-height: 40px;
-    padding-left: 19px;
     font-size: 21px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: red;
-    
 }
 
-.sort ul a{
-    display: block;
-    height: 40px;
-    width: 270px;
-    line-height: 40px;
-    padding-left: 19px;
-    font-size: 21px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: red;
-}
 
- */
+
+
+
+
+
+
+
+
