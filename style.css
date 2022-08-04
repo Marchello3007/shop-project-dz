@@ -782,7 +782,7 @@ input {outline:none;}
 
 .product-quantity button{
     cursor: pointer;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     text-align: center;
     width: 24px;
     border: none;
@@ -801,3 +801,9 @@ input {outline:none;}
 
 
 /* ***************** disabled ***************** */
+
+:disabled{
+    background-color: #094c8f;
+    /* background-color: red; */
+    /* background-color: #2c71b8; */
+}
